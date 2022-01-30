@@ -1,0 +1,222 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.placeicon{
+    font-family: fontawesome;
+}
+.dasbord{
+    text-align: center;
+    margin: 20px 10px 70px 10px;
+}
+.navbar-icons{
+    margin: 50px 10px;
+    text-align: center;
+}
+.color-white{
+    color: white;
+}
+.fa-paper-plane{
+    margin: 0px 15px;
+}
+.icons{
+    float: right;
+}
+.fa-times{
+    color: white;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.fa-ellipsis-v{
+    color: white;
+    margin-top: 11px;
+    margin-right: 40px;
+}
+.navbar-logout{
+    margin-top: 50vh;
+    text-align: center;
+}
+.conatiner{
+    display: grid;
+    grid-template-columns: 7% auto;
+}
+.left-navbar{
+    background-color: #000080;
+    height: 100vh;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.right-container{
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 8% auto;
+}
+.header{
+    grid-column: 1/-1;
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+.sub-header-left h2,.sub-header-left.sort-icon{
+    display: inline-block;
+}
+.sub-header-left h2{
+    margin: 10px 30px;
+}
+.sort-icon{
+    float: right;
+    margin: 10px;
+}
+.sub-header-right p{
+    display: inline-block;
+}
+.sub-header-right{
+    float: right;
+    margin: 10px 10px;
+}
+.sub-header-right-main{
+    padding: 0px 40px;
+}
+.fa-bell{
+    margin-top: 15px;
+    margin: 15px 40px;
+}
+.sub-header-right img{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+.chat-details{
+    height: 85vh;
+    margin: 10px;
+    padding: 10px 20px;
+}
+.search-box input{
+    font-size: larger;
+    border-radius: 5px;
+    padding: 5px;
+    width: 27.7vw;
+    border: 2px solid gray;
+}
+.chat-person-details{
+    border-radius: 15px;
+    height: 74vh;
+    margin-top: 35px;
+    overflow: scroll;
+    border: 2px solid gray;
+}
+.person-individual{
+    padding: 10px 10px;
+    border-bottom: 2px solid gray;
+}
+.person-individual h2{
+    font-size: 15px;
+}
+.person-individual img{
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+}
+.person-individual div{
+    display: inline-block;
+    padding: 0px 15px;
+}
+.chatting{
+    height: 85vh;
+    margin: 10px;
+    width: 95%;  
+    border-bottom: 2px solid gray; 
+    border-left: 2px solid gray; 
+    border-right: 2px solid gray; 
+    border-radius: 20px;
+    overflow: hidden;
+}
+.chatting-header{
+    background-color: #000080;
+    padding: 10px 20px;
+}
+.chatting-header div{
+    display: inline-block;
+    margin-left: 20px;
+    color: white;
+    vertical-align:middle;
+}
+.chatting-header h2{
+    font-size: 18px;
+}
+.chatting-header img{
+    vertical-align:middle;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+}
+.chatting-day{
+    text-align: center;
+    font-weight: bold;
+    color: gray;
+    margin: 8px auto;
+}
+.message-typing-box{
+    margin: 10px 10px 10px 25px;
+}
+.message-typing-box input{
+    font-size: larger;
+    border-radius: 5px;
+    padding: 10px;
+    width: 90%;
+}
+.messages{
+    height: 74%;
+    overflow: scroll;
+}
+.messages .sender img{
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    margin-left: 10px;
+    margin-top: auto;
+}
+.messages div{
+    display: inline-block;
+}
+.sender,.reciver{
+    margin-top: 20px;
+}
+.msg-sender{
+    width: 50%;
+    margin-left: 15px;
+    padding: 10px;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    background-color: rgb(241, 236, 236);
+}
+.messages .reciver img{
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    margin-right: 10px;
+    margin-top: auto;
+}
+.msg-reciver {
+    width: 92%;
+    margin-right: 15px;  
+}
+.msg-reciver p{
+    width: 50%;
+    float: right;
+    padding: 10px;
+    border-radius: 15px;
+    border-top-right-radius: 0px;
+    background-color: rgb(206, 243, 253);
+}
+
+@media screen and (max-width:1000px) {
+    .message-typing-box input{
+        width: 80%;
+    }
+    .msg-reciver {
+        width: 85%; 
+    }
+}

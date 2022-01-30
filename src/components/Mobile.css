@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.placeicon{
+    font-family: fontawesome;
+}
+.mobile-chatting{
+    height: 100vh;
+    margin: 10px;
+    width: 100%;  
+    overflow: hidden;
+}
+.mobile-chatting-header{
+    padding: 10px 0px;
+    border-bottom: 2px solid rgb(219, 214, 214);
+}
+.mobile-chatting-header div{
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align:middle;
+}
+.mobile-chatting-header h2{
+    font-size: 18px;
+}
+.mobile-chatting-header img{
+    vertical-align:middle;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+}
+.mobile-chatting-day{
+    text-align: center;
+    font-weight: bold;
+    color: gray;
+    margin: 8px auto;
+}
+.mobile-message-typing-box{
+    margin: 10px 10px 10px 25px;
+}
+.mobile-message-typing-box input{
+    font-size: larger;
+    border-radius: 5px;
+    padding: 10px;
+    width: 75%;
+}
+.mobile-messages{
+    height: 77vh;
+    overflow: scroll;
+}
+.mobile-messages .sender img{
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    margin-left: 10px;
+    margin-top: auto;
+}
+.mobile-messages div{
+    display: inline-block;
+}
+.mobile-sender,.mobile-reciver{
+    margin-top: 20px;
+}
+.mobile-msg-sender{
+    width: 60%;
+    margin-left: 15px;
+    padding: 10px;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    background-color: rgb(241, 236, 236);
+}
+.mobile-messages .reciver img{
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    margin-right: 10px;
+    margin-top: auto;
+}
+.mobile-msg-reciver {
+    width: 92%;
+    margin-right: 15px;  
+}
+.mobile-msg-reciver p{
+    width: 60%;
+    float: right;
+    padding: 10px;
+    border-radius: 15px;
+    border-top-right-radius: 0px;
+    background-color: rgb(206, 243, 253);
+}
+
+
+.fa-bars{
+    margin-left: 20px;
+}
+.fa-arrow-left{
+    margin: 0px 20px;
+}
+.mobile-fa-ellipsis-v{
+    color: black;
+    margin-top: 11px;
+    margin-right: 40px;
+}
+.mobile-header{
+    background-color: #000080;
+}
+.header-heading{
+    color: white;
+    padding: 15px;
+    margin: 0px 80px;
+    display: inline-block;
+}
