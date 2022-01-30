@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Reactwebsite/static/css/main.541328a6.css",
+    "main.js": "/Reactwebsite/static/js/main.f3b94ae8.js",
+    "static/js/787.b056c8aa.chunk.js": "/Reactwebsite/static/js/787.b056c8aa.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/Reactwebsite/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/Reactwebsite/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/Reactwebsite/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/Anonymous-Laptop-Wallpaper-4k.jpg": "/Reactwebsite/static/media/Anonymous-Laptop-Wallpaper-4k.605ec75284bb06d122b2.jpg",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/Reactwebsite/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/Reactwebsite/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "index.html": "/Reactwebsite/index.html",
+    "main.541328a6.css.map": "/Reactwebsite/static/css/main.541328a6.css.map",
+    "main.f3b94ae8.js.map": "/Reactwebsite/static/js/main.f3b94ae8.js.map",
+    "787.b056c8aa.chunk.js.map": "/Reactwebsite/static/js/787.b056c8aa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.541328a6.css",
+    "static/js/main.f3b94ae8.js"
+  ]
+}
